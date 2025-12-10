@@ -13,5 +13,4 @@ steps:
     resourceGroupName: 'Aakash'
     location: 'East US'
     templateLocation: 'Linked artifact'
-    csmFile: '/template.json'
     deploymentMode: 'Incremental'
