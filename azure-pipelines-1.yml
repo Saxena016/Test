@@ -1,8 +1,9 @@
 trigger:
 - main
 
-pool: default
-
+pool: 
+ name: default
+steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
